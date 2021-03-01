@@ -1,0 +1,34 @@
+#navbar {
+  background-color: #495d63 !important;
+  height: 60px;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 1.7rem;
+}
+
+.nav-items {
+  color: #fff !important;
+  display: flex;
+  align-items: center !important;
+  text-decoration: none !important;
+  padding: 0.5rem 0.8rem;
+  height: 60px;
+}
+
+.nav-items:hover {
+  border-bottom: 4px solid #fff !important;
+  transition: all 0.2s ease-out;
+}
+
+.navbar-collapse {
+  background-color: #495d63;
+  opacity: 93%;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-items {
+    padding-left: 45%;
+  }
+}
