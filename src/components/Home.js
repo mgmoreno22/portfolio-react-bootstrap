@@ -18,7 +18,7 @@ export default function Home() {
           </Col>
           <Col xs={12} md={6}>
             <h1 className="homeText text-center">Hello, I am Michael</h1>
-            <p className="homeText text-justify">
+            <p className="homeText text-justify" id="aboutText">
               I am a Front-End Web Developer with a Bachelors in Psychology from
               the University of San Francisco with additional study of Java
               programming and web design at East Los Angeles College. I have
@@ -30,17 +30,22 @@ export default function Home() {
           </Col>
         </Row>
         <Row>
-          <Col className="text-center" xs={4} md={3} lg={2}>
+          <Col
+            className="text-center"
+            xs={4}
+            md={{ span: 2, offset: 6 }}
+            lg={2}
+          >
             <a target="_blank" href="https://www.linkedin.com/in/mgmoreno22/">
               <i class="fab fa-linkedin"></i>
             </a>
           </Col>
-          <Col className="text-center" xs={4} md={3} lg={2}>
+          <Col className="text-center" xs={4} md={2} lg={2}>
             <a target="_blank" href="https://github.com/mgmoreno22">
               <i class="fab fa-github-square"></i>
             </a>
           </Col>
-          <Col className="text-center" xs={4} md={3} lg={2}>
+          <Col className="text-center" xs={4} md={2} lg={2}>
             <a target="_blank" href="https://www.instagram.com/mikemoreno22/">
               <i class="fab fa-instagram-square"></i>
             </a>
