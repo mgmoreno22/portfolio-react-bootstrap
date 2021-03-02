@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
-import "../styles/Topbar.css";
+import "./styles/Topbar.css";
 
 export default function Topbar() {
   return (

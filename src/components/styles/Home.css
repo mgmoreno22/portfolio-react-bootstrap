@@ -1,0 +1,23 @@
+.introContainer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(78, 99, 106, 0.5);
+  width: 70%;
+  border-radius: 15px;
+}
+
+#author-photo {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.homeText {
+  text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+  .introContainer {
+    margin-top: 20px;
+    width: 80%;
+  }
+}
