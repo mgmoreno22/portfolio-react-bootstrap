@@ -16,9 +16,9 @@ export default function Topbar() {
             <Link className="nav-items" to="/">
               Home
             </Link>
-            <Link className="nav-items" to="/About">
+            {/* <Link className="nav-items" to="/About">
               About
-            </Link>
+            </Link> */}
             <Link className="nav-items" to="/Portfolio">
               Portfolio
             </Link>
