@@ -1,0 +1,24 @@
+.portContainer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(78, 99, 106, 0.8);
+  width: 70%;
+  border-radius: 15px;
+  min-width: 340px;
+}
+
+.headerText {
+  color: white;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: rgba(88, 34, 50, 0.8);
+}
+
+.card-header {
+  /* hex is #36151E */
+  background-color: rgba(54, 21, 30, 0.9);
+  color: white;
+  font-size: 1.8rem;
+}
