@@ -23,6 +23,7 @@
 }
 
 .navbar-collapse {
+  z-index: 2;
   background-color: #495d63;
   opacity: 93%;
 }
