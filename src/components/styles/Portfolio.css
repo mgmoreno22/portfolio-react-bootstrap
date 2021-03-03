@@ -15,6 +15,7 @@
 
 .card {
   background-color: rgba(88, 34, 50, 0.8);
+  margin-bottom: 18px;
 }
 
 .card-header {
@@ -40,6 +41,13 @@
   font-size: 0.92rem;
   font-style: italic;
   line-height: 120%;
+}
+
+.portClarify {
+  font-size: 0.8rem;
+  padding-top: 6px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .portLinkBody {
