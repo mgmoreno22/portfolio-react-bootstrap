@@ -8,3 +8,21 @@
   height: 100%;
   color: white;
 }
+
+.submitBtn {
+  color: #e0fbfc !important;
+  background-color: rgba(77, 30, 43, 0.9) !important;
+  border: rgba(77, 30, 43, 0.9) !important;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.submitBtn:hover {
+  background-color: rgba(43, 15, 22, 0.9) !important;
+}
+
+.submitBtn:focus {
+  border-color: rgba(77, 30, 43, 0.9) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(151, 30, 67, 0.9) !important;
+}
