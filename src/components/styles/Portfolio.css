@@ -5,6 +5,7 @@
   width: 70%;
   border-radius: 15px;
   min-width: 340px;
+  height: 100%;
 }
 
 .headerText {
@@ -21,6 +22,24 @@
   background-color: rgba(54, 21, 30, 0.9);
   color: white;
   font-size: 1.7rem;
+}
+
+.card-body {
+  min-height: 100%;
+}
+
+.portAbout {
+  color: white;
+  line-height: 120%;
+  margin-bottom: 12px !important;
+}
+
+.portTech {
+  padding: 0px 16px;
+  color: lightgrey;
+  font-size: 0.92rem;
+  font-style: italic;
+  line-height: 120%;
 }
 
 .portLinkBody {
