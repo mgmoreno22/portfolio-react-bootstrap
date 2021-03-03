@@ -30,6 +30,7 @@
 
 .fab:hover {
   color: #c7f8f9;
+  transition: all 0.2s ease-out;
 }
 
 @media only screen and (min-width: 1095px) {

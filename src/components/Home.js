@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { motion } from "framer-motion";
 import Topbar from "./Topbar";
 import "./styles/Home.css";
 
@@ -36,19 +37,25 @@ export default function Home() {
             md={{ span: 2, offset: 6 }}
             lg={2}
           >
-            <a target="_blank" href="https://www.linkedin.com/in/mgmoreno22/">
-              <i class="fab fa-linkedin"></i>
-            </a>
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
+              <a target="_blank" href="https://www.linkedin.com/in/mgmoreno22/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </motion.div>
           </Col>
           <Col className="text-center" xs={4} md={2} lg={2}>
-            <a target="_blank" href="https://github.com/mgmoreno22">
-              <i class="fab fa-github-square"></i>
-            </a>
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
+              <a target="_blank" href="https://github.com/mgmoreno22">
+                <i class="fab fa-github-square"></i>
+              </a>
+            </motion.div>
           </Col>
           <Col className="text-center" xs={4} md={2} lg={2}>
-            <a target="_blank" href="https://www.instagram.com/mikemoreno22/">
-              <i class="fab fa-instagram-square"></i>
-            </a>
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
+              <a target="_blank" href="https://www.instagram.com/mikemoreno22/">
+                <i class="fab fa-instagram-square"></i>
+              </a>
+            </motion.div>
           </Col>
         </Row>
       </Container>

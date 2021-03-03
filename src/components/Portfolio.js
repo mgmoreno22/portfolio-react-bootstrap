@@ -1,7 +1,7 @@
 import React from "react";
 import Topbar from "./Topbar";
 import "./styles/Portfolio.css";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
+import { Col, Container, Row, Card, CardDeck, Button } from "react-bootstrap";
 
 export default function Portfolio() {
   return (
