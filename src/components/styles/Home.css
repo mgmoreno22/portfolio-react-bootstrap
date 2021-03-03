@@ -24,8 +24,12 @@
 
 .fab {
   padding-top: 20px;
-  color: #e0fbfc;
+  color: #a2b9b9;
   font-size: 4rem;
+}
+
+.fab:hover {
+  color: #c7f8f9;
 }
 
 @media only screen and (min-width: 1095px) {
