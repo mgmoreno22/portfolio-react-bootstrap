@@ -77,17 +77,17 @@ export default function Contact() {
             lg={2}
           >
             <a target="_blank" href="https://www.linkedin.com/in/mgmoreno22/">
-              <i class="fab fa-linkedin social-sm"></i>
+              <i class="fab fa-linkedin"></i>
             </a>
           </Col>
           <Col className="text-center" xs={4} md={2} lg={2}>
             <a target="_blank" href="https://github.com/mgmoreno22">
-              <i class="fab fa-github-square social-sm"></i>
+              <i class="fab fa-github-square"></i>
             </a>
           </Col>
           <Col className="text-center" xs={4} md={2} lg={2}>
             <a target="_blank" href="https://www.instagram.com/mikemoreno22/">
-              <i class="fab fa-instagram-square social-sm"></i>
+              <i class="fab fa-instagram-square"></i>
             </a>
           </Col>
         </Row>
