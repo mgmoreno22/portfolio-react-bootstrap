@@ -61,6 +61,36 @@ export default function Contact() {
             </Form>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <p className="text-center contact-text">
+              You can also contact me directly at{" "}
+              <span className="pEmail">MichaelMoreno751@gmail.com</span>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col
+            className="text-center"
+            xs={4}
+            md={{ span: 2, offset: 3 }}
+            lg={2}
+          >
+            <a target="_blank" href="https://www.linkedin.com/in/mgmoreno22/">
+              <i class="fab fa-linkedin social-sm"></i>
+            </a>
+          </Col>
+          <Col className="text-center" xs={4} md={2} lg={2}>
+            <a target="_blank" href="https://github.com/mgmoreno22">
+              <i class="fab fa-github-square social-sm"></i>
+            </a>
+          </Col>
+          <Col className="text-center" xs={4} md={2} lg={2}>
+            <a target="_blank" href="https://www.instagram.com/mikemoreno22/">
+              <i class="fab fa-instagram-square social-sm"></i>
+            </a>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
